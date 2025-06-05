@@ -4,7 +4,7 @@ import path from 'path';
 import matter from 'gray-matter';
 import { marked } from 'marked';
 
-const SOURCE_PATH = path.join(process.cwd(), 'submodule', 'src', 'i18n', 'directory2024', 'pages');
+const SOURCE_PATH = path.join(process.cwd(), 'submodule', 'src', 'i18n', 'gambling-reviews', 'pages');
 const OUTPUT_PATH = path.join(process.cwd(), 'src', 'docs-manifests');
 
 // Convert slug to valid manifest name
