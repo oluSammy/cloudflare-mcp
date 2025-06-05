@@ -1,0 +1,4 @@
+[submodule "submodule"]
+	path = submodule
+	url = git@github.com:bitcoin-portal/bitcoincom-www.git
+	branch = master
