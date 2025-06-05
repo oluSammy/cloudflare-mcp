@@ -14,7 +14,11 @@ function getManifestName(slug: string): string {
   const camelCase = parts.map((part, index) => 
     index === 0 ? part : part.charAt(0).toUpperCase() + part.slice(1)
   ).join('');
-  return `${camelCase}Manifest`;
+  
+  // If the result starts with a number, prefix it with "site" to make it a valid identifier
+  const manifestName = /^\d/.test(camelCase) ? `site${camelCase.charAt(0).toUpperCase() + camelCase.slice(1)}` : camelCase;
+  
+  return `${manifestName}Manifest`;
 }
 
 interface DocContent {
@@ -134,6 +138,18 @@ export interface DocContent {
   content: string;
   html: string;
   lastModified: string;
+}
+
+export interface DocGroup {
+  slug: string;
+  title: string;
+  description: string;
+  locales: Array<{
+    locale: string;
+    title: string;
+    description: string;
+    lastModified: Date;
+  }>;
 }
 `;
     

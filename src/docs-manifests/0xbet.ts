@@ -1,7 +1,7 @@
 // This file is auto-generated. Do not edit manually.
 import { DocContent } from '../types/docs';
 
-export const 0xbetManifest: Record<string, DocContent> = {
+export const site0xbetManifest: Record<string, DocContent> = {
   "0xbet:ar": {
     "slug": "0xbet",
     "locale": "ar",

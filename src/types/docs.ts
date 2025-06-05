@@ -9,3 +9,15 @@ export interface DocContent {
   html: string;
   lastModified: string;
 }
+
+export interface DocGroup {
+  slug: string;
+  title: string;
+  description: string;
+  locales: Array<{
+    locale: string;
+    title: string;
+    description: string;
+    lastModified: Date;
+  }>;
+}

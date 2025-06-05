@@ -1,7 +1,7 @@
 // This file is auto-generated. Do not edit manually.
 import { DocContent } from '../types/docs';
 
-export const 1winManifest: Record<string, DocContent> = {
+export const site1winManifest: Record<string, DocContent> = {
   "1win:ar": {
     "slug": "1win",
     "locale": "ar",

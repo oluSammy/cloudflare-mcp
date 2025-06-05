@@ -1,7 +1,7 @@
 // This file is auto-generated. Do not edit manually.
 import { DocContent } from '../types/docs';
 
-export const 500CasinoManifest: Record<string, DocContent> = {
+export const site500CasinoManifest: Record<string, DocContent> = {
   "500-casino:ar": {
     "slug": "500-casino",
     "locale": "ar",

@@ -111,5 +111,5 @@ export const manifestIndex: ManifestIndex = {
     "ybets",
     "yyy-casino"
   ],
-  "lastModified": "2025-06-05T22:53:43.618Z"
+  "lastModified": "2025-06-05T23:02:04.718Z"
 };

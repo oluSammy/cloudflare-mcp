@@ -1,7 +1,7 @@
 // This file is auto-generated. Do not edit manually.
 import { DocContent } from '../types/docs';
 
-export const 1xbitManifest: Record<string, DocContent> = {
+export const site1xbitManifest: Record<string, DocContent> = {
   "1xbit:ar": {
     "slug": "1xbit",
     "locale": "ar",
