@@ -1,8 +1,4 @@
-// At the top of your entry file
-if (typeof (globalThis as any).TransformStream === "undefined") {
-  // @ts-ignore
-  (globalThis as any).TransformStream = require("stream/web").TransformStream;
-}
+import "./polyfill"; // This must be the first import!
 
 import { McpAgent } from "agents/mcp";
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
