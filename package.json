@@ -7,7 +7,7 @@
 		"build:watch": "tsc -p tsconfig.build.json --watch",
 		"clean": "rm -rf dist",
 		"prebuild": "npm run clean",
-		"deploy": "wrangler deploy",
+		"deploy": "wrangler deploy --remote",
 		"dev": "wrangler dev",
 		"format": "biome format --write",
 		"lint:fix": "biome lint --fix",
