@@ -1,4 +1,4 @@
-import "./polyfill"; // This must be the first import!
+// import "./polyfill"; // This must be the first import!
 
 import { McpAgent } from "agents/mcp";
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
